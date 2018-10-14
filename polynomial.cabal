@@ -27,8 +27,6 @@ source-repository head
 
 Library
   ghc-options:          -Wall -fno-warn-name-shadowing
-  if impl(ghc >= 7.4)
-    ghc-options:        -fwarn-unsafe
   hs-source-dirs:       src
   exposed-modules:      Math.Polynomial
                         Math.Polynomial.Bernstein

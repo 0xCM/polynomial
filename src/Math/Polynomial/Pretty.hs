@@ -17,6 +17,7 @@ import Data.Complex
 
 import Text.PrettyPrint
 import Text.PrettyPrint.HughesPJClass
+import Prelude hiding((<>))
 
 instance (Pretty a, Num a, Ord a) => Pretty (Poly a) where
     pPrintPrec l p x = ppr

@@ -1,0 +1,5 @@
+resolver: nightly-2018-10-12
+extra-deps:
+- vector-space-0.15@sha256:1914ea70f22bf37e61b0230f0a66dab4e024d1ec95d80c58014b4b8336fddf16
+- Boolean-0.2.4@sha256:a16b532a00eb3f29e8e588f3ca5c225370eef3dd963ee833d88b241ac680dc71
+- NumInstances-1.4@sha256:d498d51e0fb23822706ca5e24944d014fdc1fd55bcd57f075f9797316eec0187

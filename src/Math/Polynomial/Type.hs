@@ -1,4 +1,5 @@
 {-# LANGUAGE ViewPatterns, TypeFamilies, GADTs, UndecidableInstances #-}
+{-# OPTIONS_GHC -fno-warn-inline-rule-shadowing #-}
 -- |Low-level interface for the 'Poly' type.
 module Math.Polynomial.Type 
     ( Endianness(..)

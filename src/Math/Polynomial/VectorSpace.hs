@@ -1,5 +1,7 @@
 {-# LANGUAGE ParallelListComp, ViewPatterns, FlexibleContexts #-}
 {-# OPTIONS_GHC -fno-warn-orphans #-}
+{-# OPTIONS_GHC -fno-warn-inline-rule-shadowing #-}
+{-# OPTIONS_GHC -fno-warn-unused-matches #-}
 -- TODO: update all haddock comments
 -- |Same general interface as Math.Polynomial, but using AdditiveGroup, 
 -- VectorSpace, etc., instead of Num where sensible.

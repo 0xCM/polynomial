@@ -1,7 +1,7 @@
+{-# OPTIONS_GHC -fno-warn-unused-matches #-}
 module Math.Polynomial.Bernoulli (bernoulliPoly) where
 
 import Math.Polynomial
-import Data.VectorSpace
 
 {- | Bernoulli polynomial with a nonstandard normalization
 

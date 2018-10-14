@@ -7,5 +7,5 @@ dist
 *.hi
 *.chi
 *.chs.h
-
+.stack-work
 

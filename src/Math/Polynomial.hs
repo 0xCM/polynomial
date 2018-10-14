@@ -1,5 +1,7 @@
 {-# LANGUAGE ParallelListComp, ViewPatterns, FlexibleContexts #-}
 {-# OPTIONS_GHC -fno-warn-orphans #-}
+{-# OPTIONS_GHC -fno-warn-inline-rule-shadowing #-}
+
 module Math.Polynomial
     ( Endianness(..)
     , Poly, poly, polyDegree
